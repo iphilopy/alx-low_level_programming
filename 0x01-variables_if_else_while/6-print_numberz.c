@@ -1,35 +1,41 @@
 nclude <stdio.h>
 
-#include <unistd.h>
-
 /**
  *
  *  * main - Entry point
  *
- *   * Description: prints char below 10
+ *   *
  *
- *    * Return: Always 0 (success)
+ *    * Return: Always 0 (success/corect)
  *
  *     */
 
 int main(void)
 
+
+
 {
 
-		int a;
+	int i;
 
 
 
-			for (a = 0; a < 10; a++)
+	for (i = 48 ; i <= 57; i++)
 
-					{
+	{
 
-								putchar(a + '0');
+		putchar (i);
 
-									}
+	}
 
-				putchar('\n');
 
-					return (0);
+
+	putchar ('\n');
+
+
+
+	return (0);
+
+
 
 }
