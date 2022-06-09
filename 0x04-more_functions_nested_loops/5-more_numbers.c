@@ -20,8 +20,6 @@ void more_numbers(void)
 
 	int result;
 
-
-
 	i = 0;
 
 	result = 0;
