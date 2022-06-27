@@ -3,14 +3,11 @@
 
 
 /**
+ * strtow - splits a string into words
+ * @str: string of words to be split
  *
- *  * strtow - splits a string into words
- *
- *   * @str: string of words to be split
- *
- *    * Return: double pointer to strings
- *
- *     */
+ * Return: double pointer to strings
+ */
 
 char **strtow(char *str)
 
@@ -48,9 +45,7 @@ char **strtow(char *str)
 
 																					if (!ptr[i])
 
-																								{
-
-																												i -= 1;
+																																																			i -= 1;
 
 																															while (i >= 0)
 
